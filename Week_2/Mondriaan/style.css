@@ -1,0 +1,29 @@
+:root{
+    --gap: 12px;
+    --max-width: 600px;
+    --bg: #000;
+    --white: #fff;
+    --red: #e23b2b;
+    --blue: #17469e;
+    --yellow: #f2c200;
+    }
+    *{box-sizing:border-box}
+    body{display:flex;align-items:center;justify-content:center;height:100vh;margin:0;background:#f5f5f5}
+    
+    .mondrian {
+    width:100%;
+    max-width:var(--max-width);
+    aspect-ratio: 1 / 1;
+    background:var(--bg);
+    padding:var(--gap);
+    display:grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    gap: var(--gap);
+    }
+    
+    .tile{background:var(--white)}
+    .red{background:var(--red)}
+    .blue{background:var(--blue)}
+    .yellow{background:var(--yellow)}
+    .black{background:#000}

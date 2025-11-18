@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "outfit";
+    src: url("../fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "young-serif";
+    src: url("../fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0;
+    padding: 2rem 1rem 4rem;
+    font-family: "outfit";
+}
+
+.content {
+    grid-column: 2/4;
+    background-color: hsl(0, 0%, 100%);
+    min-height: 100vh;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.content > img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.content > h1 {
+    font-weight: 500;
+    font-family: "young-serif";
+    font-size: 3rem;
+}
+
+.content h3 {
+    font-weight: 200;
+}
+
+.content h2 {
+    font-family: "young-serif";
+    color: hsl(14, 45%, 36%);
+}
+
+.time-section {
+    background-color: hsl(330, 100%, 98%);
+    padding: 1rem;
+    border-radius: 20px;
+    line-height: 2rem;
+}
+
+.time-section h2 {
+    color: hsl(332, 51%, 32%);
+}
+
+.time-section li {
+    padding-left: 1.5rem; /* дополнительный отступ текста */
+  }
+
+.time-section li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.ingredients-section {
+    line-height: 2rem;
+    border-bottom: 1px solid grey;
+    padding-bottom: 1rem;
+}
+
+.ingredients-section li {
+    padding-left: 1rem;
+}
+
+.ingredients-section li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+
+.instructions-section {
+    line-height: 2rem;
+    border-bottom: 1px solid grey;
+    padding-bottom: 1rem;
+}
+
+.instructions-section li {
+    padding-left: 1.5rem;
+}
+
+.instructions-section li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+.nutrient-section {
+    line-height: 2rem;
+}
+
+.nutrient-section table {
+    width: 100%;
+}
+
+.value {
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+}

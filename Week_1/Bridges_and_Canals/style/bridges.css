@@ -1,0 +1,11 @@
+h1 {
+    color: red;
+  }
+img {
+  border: 2px solid blue;
+}
+.rectangle {
+  width: 620px;
+  border: 1px solid blue; 
+  padding: 10px;
+}

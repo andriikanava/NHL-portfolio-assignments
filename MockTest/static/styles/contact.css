@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+}
+
+.content {
+    width: 1024px;
+    background-color: white;
+    margin-block: 20px;
+}
+
+body {
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+}
+
+/*- ---- HEADER ----- */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    height: 115px;
+    background-color: #4d5b7b;
+
+    padding-inline: 25px;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.header-nav a {
+    color: #f3f3f3;
+    text-decoration: none;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+
+    padding: 15px;
+}
+
+.header-nav a:hover {
+    background-color: #f3f3f3;
+    color: #4d5b7b;
+}
+
+
+
+/* ----- BANNER ---- */
+.banner {
+    background-image: url("../images/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.banner h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.banner h2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+
+/* ----- MAIN_FLEX ------ */
+.cars-content {
+    padding-inline: 53px;
+    margin-block: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+/* ----- TITLE ----- */
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.title h1 {
+    color: #4d5b7b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: 800;
+    align-self: start;
+}
+
+.title-line {
+    width: 100%;
+    height: 2px;
+    background-color: #4d5b7b;
+}
+
+/* ----- FORM ----- */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap:10px;
+}
+
+.textinput input {
+    width: 100%;
+    height: 25px;
+    border: #b0b8ca solid 1px;
+}
+
+form label {
+    color: #4d5b7b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    align-self: start;
+}
+
+.dropdowns {
+    width: 100%;
+    display: flex;
+}
+
+.dropdowns select {
+    width: 100%;
+    height: 25px;
+    border: #b0b8ca solid 1px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.options textarea {
+    resize: none;
+    height: 70px;
+    border: #b0b8ca solid 1px;
+}
+
+.insurance {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.insurance h3 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    background-color: #b0b8ca;
+}
+
+#submit {
+    width: 150px;
+    background-color: green;
+    color: white;
+    padding: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: none;
+}
+
+.result h2 {
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    align-self: start;
+}
+
+.result h3 {
+    color: #4d5b7b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    align-self: start;
+}
+
+
+
+/* ----- FOOTER ----- */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+
+    padding-inline: 53px;
+    padding-block: 60px;
+
+    background-color: #cfcece;
+}
+
+.contact {
+    display: flex;
+    gap:8px;
+    flex-direction: column;
+}
+
+.contact h5 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.contact a {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.working-hours {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+}
+
+.working-hours h5 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    text-align: end;
+}
